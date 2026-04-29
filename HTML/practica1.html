@@ -1,0 +1,93 @@
+<!DOCTYPE html> <!-- esta linea siempre se pone -->
+<!-- Ctrl + s para guardar -->
+<!-- <hx> es para titulos 
+     <p> es para parrafos -->
+<!-- <tabla> para hacer una tabla
+     tr para las filas
+     th Para la cabecera | colspan
+     td Para las columnas | rowspan -->
+<html Lang="es"> 
+
+    <head> <!-- links referencias e imagenes que no se ven -->
+        <title>Víctor_Condado+Practica1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos1.css"> <!-- enlaza al archivo .css-->
+        
+    </head>
+
+    <style> 
+    table,td,th{
+        border: 1px solid black;
+        
+    }
+    </style> 
+
+    <body> <!-- cosas que si se ven -->
+        <div >
+            <h1>Práctica 1</h1>
+        </div>
+        <div>
+            <h2>Tabla 1</h2>
+            <p>Esta es la primera tabla</p> 
+            <table>
+                <tr>
+                   <th id="blue" >Día</th>
+                   <th id="blue" >Hoy</th>
+                   <th id="blue" >Mañana</th>
+                   <th id="blue" >Viernes</th>
+                </tr>
+                <tr>
+                    <td id="blue" >Condicion</td>
+                    <td id="cian" >Soleado</td>
+                    <td id="cian" >Mayormente soleado</td>
+                    <td id="cian" >Parcialmente nublado</td>
+                </tr>
+                <tr>
+                    <td id="blue" >Temperatura</td>
+                    <td id="cian" >19ºC</td>
+                    <td id="cian" >17ºC</td>
+                    <td id="cian" >12ºC</td>
+                </tr>
+                <tr>
+                    <td id="blue" >Vientos</td>
+                    <td id="cian" >E 13 km/h</td>
+                    <td id="cian" >E 11 km/h</td>
+                    <td id="cian" >S 16 km/h</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <h2>Tabla 2</h2>
+            <p>Esta es la segunda tabla</p>
+            <table>
+                <tr>
+                   <th id="blue"> </th>
+                   <th id="green" colspan="2">Mike</th>
+                   <th id="red" colspan="2">Tara</th>
+                </tr>
+                <tr>
+                    <td id="blue" > </td>
+                    <td id="green" > Primera Prueba </td>
+                    <td id="green" > Segunda Prueba </td>
+                    <td id="red" > Primera Prueba </td>
+                    <td id="red" > Segunda Prueba </td>
+                </tr>
+                <tr>
+                    <td id="blue" > Día 1 </td>
+                    <td id="green2" > 25 Km </td>
+                    <td id="green2" > 38 Km </td>
+                    <td id="red2" > 28 Km </td>
+                    <td id="red2" > 37 Km </td>
+                </tr>
+                <tr>
+                    <td id="blue" > Día 2 </td>
+                    <td id="green2" > 22 Km </td>
+                    <td id="green2" > 35 Km </td>
+                    <td id="red2" > 30 Km </td>
+                    <td id="red2" > 35 Km </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
