@@ -264,9 +264,6 @@ nav {
     height: 100px;
     resize: none;
     vertical-align: top;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 input:invalid, 
